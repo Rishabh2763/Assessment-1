@@ -1,0 +1,177 @@
+body {
+  background: linear-gradient(to right, #121212, #1e1e1e);
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: linear-gradient(to right, #1e1e1e, #2c3e50);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+.section {
+  background-color: #2c3e50;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section img {
+  width: 750px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #1e1e1e, #2c3e50);
+  color: #bdc3c7;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-container {
+  flex-basis: 50%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.content1 {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.imgcont-1 img {
+  width: auto;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#resume-section h2 {
+  color: #3498db;
+}
+
+#resume-section h3 {
+  color: #00bbff;
+}
+
+#resume-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#resume-section ul li {
+  margin-bottom: 8px;
+}
+
+#resume-section a {
+  color: #3498db;
+}
+
+#resume-section a:hover {
+  text-decoration: underline;
+}
+
+#contact-section form {
+  display: grid;
+  gap: 10px;
+}
+
+#contact-section label {
+  font-weight: bold;
+}
+
+#contact-section input,
+#contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact-section input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+#contact-section input[type="submit"]:hover {
+  background-color: #2980b9;
+}
